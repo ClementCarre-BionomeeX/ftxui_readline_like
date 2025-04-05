@@ -23,7 +23,7 @@ int main() {
     last_command = cmd;
     mode = Mode::NORMAL;
     status = "NORMAL mode — submitted: " + cmd;
-    line_editor->Clear();
+    /*line_editor->Clear();*/
   };
 
   line_editor->on_cancel = [&]() {
